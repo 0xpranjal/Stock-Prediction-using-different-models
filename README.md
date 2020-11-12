@@ -1,1 +1,1 @@
-# ARIMA-model-for-Stock-Prediction
+# ARIMA model for Stock Prediction
