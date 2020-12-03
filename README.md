@@ -1,7 +1,7 @@
 # ARIMA model for Stock Prediction
 
  ## Intro
- I have a passion for solving puzzles, and there is no greater puzzle than trying to find excess returns in the equity markets. To begin my journey into algorithmic trading I have made multiple models in varying complexity ranging from naive predictions to a fully convolutional neural network. The purpose of building all these models is to create a framework to build future models off of and eventually a whole training system. In addition, this was an experiment designed to see if complex models such as deep neural networks outperform simple models.
+To begin my journey into algorithmic trading I have made multiple models in varying complexity ranging from naive predictions to a fully convolutional neural network. The purpose of building all these models is to create a framework to build future models off of and eventually a whole training system. In addition, this was an experiment designed to see if complex models such as deep neural networks outperform simple models.
 </br>
 </br>
  <span style="display:block;text-align:center">![Spy Chart](/Images/spy_plot.png)</span>
@@ -124,8 +124,3 @@ I was surprised at how poorly the CNN preprocessing model performed. It was the 
 Finally, the last model I created was a full CNN with a wavenet like architecture. The wavenet like architecture is further explained in the notebook. This model performed relatively well as it had the 2nd lowest MAE. This model seemed to consistently predict a higher price than actual no matter what direction the general trend was moving in.
 
 <span style="display:block;text-align:center">![CNN Preprocess](/Images/full_cnn_wavenet.png) </span>
-
-## Future Work
-This project is a living project and will most likely be this way for years. This is truly a passion project so I will continuially improve these models and eventually build out a trading system that automates trades from my brokerage account.
-
-The immediate next step is figuring out how to use these prices to generate trading signal.This will require much more EDA than the little I currently have done. Once this EDA starts generating some insights I can use this insights to create triggers which will execute certain orders with predifined risk profiles. Once all that is in order I will backtest that strategy I will perform statistical analysis to see if it truly does outperform passive investing.
